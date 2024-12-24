@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta HTTP-EQUIV="REFRESH" content="20; url=https://rick.nerial.uk/video.mp4">
+    <title>Sinter Kerst & Nieuw 2024</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+            overflow: hidden;
+            background: black;
+        }
+
+        .background {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: radial-gradient(circle, rgba(255, 0, 0, 0.7), rgba(0, 255, 0, 0.4), rgba(0, 0, 255, 0.2), transparent);
+            transform: translate(-50%, -50%);
+            animation: pulse 1s infinite, rgbCycle 10s infinite;
+            z-index: -1;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+                opacity: 0.7;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes rgbCycle {
+            0% {
+                background: radial-gradient(circle, rgba(255, 0, 0, 0.7), rgba(0, 255, 0, 0.4), rgba(0, 0, 255, 0.2), transparent);
+            }
+            33% {
+                background: radial-gradient(circle, rgba(0, 255, 0, 0.7), rgba(0, 0, 255, 0.4), rgba(255, 0, 0, 0.2), transparent);
+            }
+            66% {
+                background: radial-gradient(circle, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.4), rgba(0, 255, 0, 0.2), transparent);
+            }
+            100% {
+                background: radial-gradient(circle, rgba(255, 0, 0, 0.7), rgba(0, 255, 0, 0.4), rgba(0, 0, 255, 0.2), transparent);
+            }
+        }
+
+        .container {
+            max-width: 90%;
+            width: 600px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #555;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            color: #777;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Aan Geert</h1>
+        <p>Schoon Piet zat eens te loeren,</p>
+        <p>Wat doen al die boeren?</p>
+
+        <p>Programmeren is wat ze daar vooral uitvoeren,</p>
+        <p>Met oude en nieuwe minds die code beloeren.</p>
+
+        <p>Aan kantoorhumor geen tekort,</p>
+        <p>Anders lopen de zaken rot.</p>
+
+        <p>Met Van 9 tot 5 als je cynische gids,</p>
+        <p>Wordt elke werkdag een komische hit.</p>
+
+        <p>En met een lach op je gezicht,</p>
+        <p>Zijn je taken zo weer verricht.</p>
+
+        <p>Maar voel je niet verplicht,</p>
+        <p>Ook zonder wordt het werk verricht.</p>
+
+        <p>Want met die buitenaardse krachten,</p>
+        <p>Kun je elk probleem ontkrachten.</p>
+
+        <p>Met deze Japanse manieren,</p>
+        <p>Is rust aan de man snel te regisseren.</p>
+
+        <p>En met deze wijsheid,</p>
+        <p>Kun je doorgaan tot de volgende ijstijd.</p>
+
+        <p class="signature">Groet,<br>Schoon Piet</p>
+    </div>
+</body>
+</html>
